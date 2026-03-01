@@ -7,29 +7,31 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./src/output.css">
-    <title>Document</title>
+    <title>My Portfolio</title>
 </head>
 <body class="font-serif bg-black text-white">
     <div>
         <div class="w-20 h-20 border border-white rounded-full absolute top-52 left-32"></div>
         <div class="w-20 h-20 border border-green-700 rounded-full absolute top-44 left-28"></div>
+        <div class="w-20 h-20 border border-white rounded-full absolute top-52 left-[100px]"></div>
         <!-- <div class="w-20 h-20 border border-white rounded-full"></div>
-        <div class="w-20 h-20 border border-white rounded-full"></div>
         <div class="w-20 h-20 border border-white rounded-full"></div>
         <div class="w-20 h-20 border border-white rounded-full"></div>
         <div class="w-20 h-20 border border-white rounded-full"></div> -->
     </div>
     <nav>
-        <div class="flex justify-between mt-5 mx-36">
+        <div class="flex justify-between mt-5 mx-52">
             <div>
                 <span style="font-family: 'Rubik Iso', system-ui;" class="text-2xl"><span class="text-green-800">WALSHAK</span></span>
             </div>
 
             <div class="flex gap-10 font-bold">
                 <a class="font-extrabold" href="">Home</a>
-                <a class="font-extrabold" href="">About</a>
+                <a class="font-extrabold" href="#about">About</a>
                 <a class="font-extrabold" href="">Portfolio</a>
-                <a class="font-extrabold" href="">Blog</a> 
+                <a class="font-extrabold" href="#skills">Skills</a> 
+                <a class="font-extrabold" href="#my-goal">my-goal</a>
+                <a class="font-extrabold" href="#contact">contact</a>
             </div>
 
             <div class="w-30 h-10 bg-green-800 flex justify-center items-center rounded-xl">
@@ -39,7 +41,7 @@
     </nav>
 
     <main>
-        <div class="flex items-center mt-40 justify-between mx-36">
+        <div class="flex items-center mt-56 justify-between mx-52">
             <div>
                 <h1 style="font-family: 'Rubik Iso', system-ui;" class="text-6xl">Hi, I'm <span class="text-green-800">Walshak</span></h1>
                 <p class="text-lg">A passionate Front-End Developer focused on building reponsive,<br> user-friendly and mordern web interface using HTML and TAILWIND CSS.<br> 
@@ -53,27 +55,91 @@
         </div>
     </main>
 
-    <div class="flex  items-center  justify-between mx-36 mt-36">
+    <div id="about" class="flex  items-center  justify-between mx-52 mt-36">
         <div>
             <img class="w-100 rounded-4xl" src="src/img/IMG-20250508-WA0021.jpg" alt="">
         </div>
         <div class="mr-40">
-            <h1 style="font-family: 'Rubik Iso', system-ui;" class="text-6xl"><span class="text-green-800">About</span> Me!</h1>
+            <a href=""><h1 style="font-family: 'Rubik Iso', system-ui;" class="text-6xl"><span class="text-green-800">About</span> Me!</h1></a>
             <p class="text-lg">I am a dedicated front-end developer currently studying at Blockfuse Labs in Jos,<br> Nigeria. I enjoy transforming UI designs into responsive and interactive websites.<br>
                 My journey into tech started with curiosity, but it quickly became a passion.<br> I love writing clean code, solving problems, and improving my skills every day.<br>
                 I believe in continuous learning and growth,<br> and I’m currently deepening my knowledge in JavaScript and<br> preparing to move into backend development with Python.</p>
         </div>
     </div>
     
-    <!-- <div>
-        <div>
-            <h1>What i Do</h1>
-            <li>Build reponsive website using HTML and Taileind</li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+    <div>
+        <div class="text-lg mt-16 mx-52">
+            <h1 style="font-family: 'Rubik Iso', system-ui;" class="text-6xl text-green-800">What i Do</h1>
+            <li>Build reponsive website using HTML and Taileind css</li>
+            <li>Create and interractive  feature using Javsascript</li>
+            <li>Develop and structure clean ui layout</li>
+            <li>Work wit git and github</li>
         </div>
-    </div> -->
+    </div>
+
+    <div>
+        <div id="skills">
+            <h1 style="font-family: 'Rubik Iso', system-ui;" class="text-6xl text-green-800 flex justify-center mt-10">Skills</h1>
+            <div class="flex justify-center mt-20 gap-96">
+                <img class="rounded-2xl" src="data:image/png;base64,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" alt="">
+                <img class="rounded-2xl" src="data:image/png;base64,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" alt="">
+            </div>
+            <div class="flex justify-center">
+                <img class="rounded-2xl" src="data:image/jpeg;base64,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" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div id="my-goal" class="flex justify-center text-center mt-20">
+        <div>
+            <h1 style="font-family: 'Rubik Iso', system-ui;" class="text-6xl text-green-800 flex justify-center">My Goal</h1>
+            <p class="mt-10">My goal is to become a highly skilled full-stack developer and build impactful digital<br> products that solve real-world problems.</p>
+        </div>
+    </div>
+
+<section id="contact" class="py-16 px-6 ">
+  <div class="max-w-2xl mx-auto text-center">
+
+    <h2  style="font-family: 'Rubik Iso', system-ui;" class="text-6xl text-green-800  mb-4">
+      Contact
+    </h2>
+
+    <p class=" mb-8">
+      Let’s work together! <br>
+      Feel free to reach out for collaborations, projects, or opportunities.
+    </p>
+
+    <div class="space-y-4 text-lg">
+
+      <p class="bg-white shadow-xl shadow-green-800 rounded-lg py-3 px-4">
+        Email:
+        <a href="mailto:youremail@example.com"
+           class="text-green-800 hover:underline">
+           walkeshl@example.com
+        </a>
+      </p>
+
+      <p class="bg-white shadow-xl shadow-green-800  rounded-lg py-3 px-4">
+        GitHub:
+        <a href="https://github.com/patrick-walshak"
+           target="_blank"
+           class="text-green-800 hover:underline">
+           https://github.com/patrick-walshak
+        </a>
+      </p>
+
+      <p class="bg-white shadow-xl shadow-green-800 rounded-lg py-3 px-4">
+        LinkedIn:
+        <a href="https://x.com/wallex002"
+           target="_blank"
+           class="text-green-800 hover:underline">
+           https://x.com/wallex002
+        </a>
+      </p>
+
+    </div>
+
+  </div>
+</section>
 </body>
 </html>
